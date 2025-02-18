@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants/index.js";
 import profilePic from "../assets/kevinRushProfile.png";
 import { motion } from "motion/react";
+import Profile_img from "../assets/Profile_img.jpg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -49,7 +50,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1 }}
-              src={profilePic}
+              src={Profile_img}
               alt=""
             />
           </div>

@@ -26,33 +26,27 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A responsive and modern portfolio website built using ReactJS and TailwindCSS. It showcases personal information, skills, projects, and contact details. The website features smooth navigation, dynamic content rendering, and a clean, minimalist design for a seamless user experience.",
+    technologies: ["HTML", "CSS", "React", "Javascript", "TailwindCSS"],
   },
   {
-    title: "Task Management App",
+    title: "Movie Rating Web Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A dynamic Movie Rating Website built using JavaScript, PHP, and PostgreSQL. It allows users to browse movies, submit ratings, and view average scores. The platform provides a user-friendly interface with real-time data handling and secure database interactions.",
+    technologies: ["HTML", "CSS", "Javascript", "SQL", "PHP", "PostgreSQL"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Calculator Application",
+    image: project2,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A simple and responsive Calculator App built using ReactJS. It performs basic arithmetic operations with a clean and intuitive user interface. The app leverages React components for efficient state management and dynamic UI updates.",
+    technologies: ["Reactjs","HTML", "CSS", "Javascript"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {
